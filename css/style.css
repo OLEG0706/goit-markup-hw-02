@@ -122,9 +122,18 @@
 
         /* description of work */
 
-    .about-list-item{
-
-    }
+   .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
     .title{
         font-weight: 700;
@@ -169,35 +178,86 @@
 
         /* footer */
 
+    .dark{
+            background-color: var(--secondary-background-color);
+
+    }
+
+
+    .logo-dark{
+        font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* letter-spacing: 0.03em; */
+    color: #ffffff;
+    }
+    
+    .address{
+            font-style: normal;
+    }
+
+    .address-position, .footer-mail, .footer-tel{
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    }
+
+     .footer-tel{
+    color: rgba(255, 255, 255, 0.6);}
+
+    .footer-mail{
+     color: rgba(255, 255, 255, 0.6);}
+
+    
 
 
 
 
+    /* hero-portfolio */
 
+    .button-filter{
+        font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    }
 
+    .filter-caption{
+        font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+    }
 
+    .caption-text{
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    }
 
+    img{
+        border: 0;
+    }
 
-
-
-
-
-
-
-
-
-
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    .card-gallery{
+            border: 1px solid #eeeeee;
+    padding: 20px 24px;
 }
+    
+
+
+
+
+
+
+
+
+
